@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+
+div.shadowed {
+	padding: 10px;
+	/* default background */
+	background-color: #C0C0C0;
+	/* box-shadow definition for Firefox */
+	-moz-border-radius: 2px;
+	-moz-box-shadow: 2px 2px 2px #888;
+	/* box-shadow definition for Safari, Chrome */
+	-webkit-border-radius: 2px;
+	-webkit-box-shadow: 2px 2px 2px #888;
+	/* CSS3 box-shadow definition */
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px #888;
+	/* CSS3 for IE 6,7,8 http://fetchak.com/ie-ccs3/ */
+	behavior: url(ie-css3.htc);
+}
